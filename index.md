@@ -6,19 +6,18 @@ layout: default
 ### {{site.tittle}}  
 
 
-## notas
+## studnets
 
 
 
 
 <table border="1">
 
-{% for alumnos in site.data.alumnos %}
-
+{% for alumno in site.data.alumnos %}
 <tr>
-   <th>{{ alumnos.nombre }}</th>
-   <th>{{ alumnos.notas }}</th>
-   <th>{{ alumnos.sexo }}</th>
+   <th>{{ alumno.nombre }}</th>
+   <th>{{ alumno.notas }}</th>
+   <th>{{ alumno.sexo }}</th>
 </tr>
 {% endfor %}
 
