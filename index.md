@@ -14,19 +14,19 @@ layout: defautl
   <th style="border: 1px solid ; padding: 10px;">nombre</th>
   <th style="border: 1px solid ; padding: 10px;">notas</th>
   <th style="border: 1px solid ; padding: 10px;">sexo</th>
-  
-  </tr>
 
+  </tr>
 </table>
+
 
 <table border="1">
 
-{% for alumno in site.data.alumnos %}
+{% for alumnos in site.data.alumnos %}
 
 <tr>
-   <th>{{ alumno.nombre }}</th>
-   <th>{{ alumno.notas }}</th>
-   <th>{{ alumno.sexo }}</th>
+   <th>{{ alumnos.nombre }}</th>
+   <th>{{ alumnos.notas }}</th>
+   <th>{{ alumnos.sexo }}</th>
 </tr>
 {% endfor %}
 
