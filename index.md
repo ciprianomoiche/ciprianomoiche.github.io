@@ -2,13 +2,6 @@
 layout: default
 
 ---
-# {{site.name}}
-### {{site.tittle}}  
-
-
-## students
-
-
 
 
 <table border="1">
@@ -21,11 +14,11 @@ layout: default
 </tr>
 
 
-{% for alumno in site.data.alumnos %}
+{% for alumnos in site.data.alumnos %}
 <tr>
-   <th>{{ alumno.nombre }}</th>
-   <th>{{ alumno.notas }}</th>
-   <th>{{ alumno.sexo }}</th>
+   <th>{{ alumnos.nombre }}</th>
+   <th>{{ alumnos.notas }}</th>
+   <th>{{ alumnos.sexo }}</th>
 </tr>
 {% endfor %}
 
