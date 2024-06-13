@@ -1,5 +1,5 @@
 ---
-
+layout: defautl
 
 ---
 # {{site.name}}
@@ -7,6 +7,17 @@
 
 
 ## notas
+
+
+<table>
+<tr>
+  <th style="border: 1px solid ; padding: 10px;">nombre</th>
+  <th style="border: 1px solid ; padding: 10px;">notas</th>
+  <th style="border: 1px solid ; padding: 10px;">sexo</th>
+  
+  </tr>
+
+</table>
 
 <table border="1">
 
@@ -17,6 +28,6 @@
    <th>{{ alumno.notas }}</th>
    <th>{{ alumno.sexo }}</th>
 </tr>
-
 {% endfor %}
+
 </table>
