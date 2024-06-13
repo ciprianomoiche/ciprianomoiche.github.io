@@ -9,8 +9,7 @@
 ## notas
 
 <table border="1">
-{% for nota in site.data.notas %}
-
+{% for nota in site.data.alumnos %}
 <tr>
    <th>{{ nota.nombre }}</th>
    <th>{{ nota.notas }}</th>
