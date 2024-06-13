@@ -6,7 +6,7 @@
 ### {{site.tittle}}  
 
 
-## JSON
+## notas
 
 <table border="1">
 {% for nota in site.data.notas %}
