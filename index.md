@@ -13,6 +13,14 @@ layout: default
 
 <table border="1">
 
+
+<tr>
+   <th>nombre</th>
+   <th>notas</th>
+   <th>sexo</th>
+</tr>
+
+
 {% for alumno in site.data.alumnos %}
 <tr>
    <th>{{ alumno.nombre }}</th>
