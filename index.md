@@ -6,12 +6,8 @@
 ### {{site.tittle}}  
 
 
-
-
-
-
 ## JSON
-### INFORMACION DE LOS ESTUDIANTES
+
 <table border="1">
 {% for nota in site.data.notas %}
 
