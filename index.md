@@ -6,7 +6,7 @@ layout: default
 ### {{site.tittle}}  
 
 
-## studnets
+## students
 
 
 
